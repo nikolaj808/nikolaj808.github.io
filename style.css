@@ -1,11 +1,19 @@
-body {
-	background-color: rgb(255, 150, 55);
+
+.grid-container2 {
+	display: list-item;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto auto auto;
+	grid-gap: 3px;
+	background-color: black;
+	padding: 10px;
+	margin: 0 auto;
 }
 
-h1 {
-	color: blue;
-}
-
-p {
-	color: red;
+.grid-item {
+	width: 100%;
+	height: 100%;
+	display: block;
+	text-align: center;
+	padding: 20px;
+	font-size: 30px;
 }

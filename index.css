@@ -1,0 +1,70 @@
+.topnavbar {
+	background-color: #141414;
+	overflow: hidden;
+}
+
+.topnavbar a.button {
+	float: right;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 20px;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.topnavbar a.button:hover {
+	background-color: #4CAF50;
+	color: white;
+	border-style: ridge;
+}
+
+.topnavbar a.name {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 20px;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+.mainpage {
+	background-color: #202020;
+	display: grid;
+}
+
+.mainpage div.grid div.welcometext {
+	font-size: 16px;
+	padding-left: 200px;
+	padding-top: 100px;
+}
+
+.mainpage div.grid div.welcometext h1 {
+	color: white;
+	text-align: left;
+	text-decoration: none;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.mainpage div.grid div.welcometext h2 {
+	color: white;
+	text-align: left;
+	text-decoration: none;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.mainpage div.grid div.welcometext h5 {
+	color: tomato;
+	text-align: left;
+	text-decoration: none;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.mainpage div.grid div.profile img.profilepic {
+	display: block;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: auto;
+	margin-left: auto;
+	width: 25%;
+
+}

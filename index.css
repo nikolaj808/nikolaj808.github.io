@@ -1,9 +1,14 @@
-.topnavbar {
-	background-color: #141414;
+body {
+	background-color: #202020;
+	display: block;
+	background-image: url('background2.jpg');
+}
+
+.navbar {
 	overflow: hidden;
 }
 
-.topnavbar a.button {
+.navbar a.button {
 	float: right;
 	color: #f2f2f2;
 	text-align: center;
@@ -12,13 +17,13 @@
 	font-size: 18px;
 }
 
-.topnavbar a.button:hover {
+.navbar a.button:hover {
 	background-color: #4CAF50;
 	color: white;
 	border-style: ridge;
 }
 
-.topnavbar a.name {
+.navbar a.name {
 	float: left;
 	color: #f2f2f2;
 	text-align: center;
@@ -27,44 +32,88 @@
 	font-size: 24px;
 }
 
-.mainpage {
-	background-color: #202020;
-	display: grid;
+.header {
+	margin: 20px;
 }
 
-.mainpage div.grid div.welcometext {
-	font-size: 16px;
-	padding-left: 200px;
-	padding-top: 100px;
+.header div.proglang img.profilepic {
+	width: 75px;
+	height: 75px;
+	float: left;
+	margin-right: 50px;
+	border-radius: 5%;
 }
 
-.mainpage div.grid div.welcometext h1 {
-	color: white;
-	text-align: left;
+.header div.proglang h1 {
+	display: inline;
 	text-decoration: none;
-	font-family: 'Courier New', Courier, monospace;
+	color: whitesmoke;
 }
 
-.mainpage div.grid div.welcometext h2 {
-	color: white;
-	text-align: left;
-	text-decoration: none;
-	font-family: 'Courier New', Courier, monospace;
-}
-
-.mainpage div.grid div.welcometext h5 {
+.header div.proglang span {
 	color: tomato;
-	text-align: left;
-	text-decoration: none;
-	font-family: 'Courier New', Courier, monospace;
 }
 
-.mainpage div.grid div.profile img.profilepic {
-	display: block;
-	margin-top: auto;
-	margin-bottom: auto;
-	margin-right: auto;
-	margin-left: auto;
-	width: 25%;
+.mainpage div.row1 {
+	display: grid;
+	grid-area: header;
+	flex-wrap: wrap;
+	padding: 0 4px;
+	float: right;
+}
 
+.mainpage div.row2 {
+	display: grid;
+	flex-wrap: wrap;
+	padding: 0 4px;
+	float: left;
+}
+
+.mainpage div.column {
+	flex: 25%;
+	max-width: 25%;
+	padding: 25px;
+}
+
+.mainpage div.column img {
+	width: 400px;
+	padding: 10px;
+}
+
+.mainpage div.column img.project1 {
+}
+
+.mainpage div.column img.project2 {
+	float: left;
+}
+
+.mainpage div.column span {
+	color: tomato;
+	padding: 10px;
+	text-align: center;
+}
+
+.mainpage div.project2 {
+	float: left;
+}
+
+.mainpage div.project2 img {
+	width: 400px;
+	border-radius: 5%;
+}
+
+.mainpage div.project2 span {
+	color: tomato;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	color: grey;
+	font-size: xx-small;
+	text-align: center;
+	padding: 15px;
+	clear: both;
+	vertical-align: bottom;
 }
